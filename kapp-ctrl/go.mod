@@ -1,4 +1,4 @@
-module kapp-ctrl
+module github.com/benmoss/go-import-tree/kapp-ctrl
 
 go 1.17
 
