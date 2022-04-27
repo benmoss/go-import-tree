@@ -1,7 +1,11 @@
 package kctrl
 
-import "k8s.io/client-go/rest"
+import (
+	"fmt"
+	"k8s.io/client-go/rest"
+)
 
 func Stuff() {
+	fmt.Println("yo")
 	_ = rest.Config{}
 }
